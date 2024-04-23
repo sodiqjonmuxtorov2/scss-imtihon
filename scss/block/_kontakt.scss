@@ -1,0 +1,143 @@
+.kontakt__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+}
+
+.kontakt__item_title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+    padding-bottom: 12px;
+}
+
+.kontakt__item_nomer {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #363738;
+}
+.kontakt__item::before{
+    content: "";
+    width: 24px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-image: url('../img/qongiroq.svg');
+}
+.kontakt__item{
+    display: flex;
+    gap: 40px;
+    margin-top: 62px;
+}
+.kontakt__item_email::before{
+    content: "";
+    width: 32px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url('../img/email.svg');
+}
+.kontakt__item_email{
+    display: flex;
+    gap: 40px;
+    margin-top: 62px;
+}
+.kontakt__block{
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 116px;
+}
+.kontakt__item_whatsapp::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-image: url('../img/whatsapp_img_bg.svg');
+}
+.kontakt__item_whatsapp{
+    display: flex;
+    gap: 40px;
+    margin-top: 62px;
+}
+.kontakt__item_skype::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-image: url('../img/skype.svg');
+}
+.kontakt__item_skype{
+    display: flex;
+    gap: 40px;
+    margin-top: 62px;
+}
+.kontakt__list_item_title{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 125%;
+color: #6b6b6c;
+padding-bottom: 14px;
+}
+.kontakt__color_list{
+    background-color: #f9f9fb;
+    padding: 17px 40px 48px 24px;
+    border-radius: 5px;
+    margin-top: 72px;
+}
+.kontakt__item_texti{
+    width: 283px;
+}
+.kontakt__list_item{
+    margin-top: 50px;
+}
+.kontakt__list_item_text{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 135%;
+color: #363738;
+}
+.kontakt__hr{
+    margin-top: 24px;
+}
+@media screen and (min-width:768px) {
+    .kontakt__title{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 125%;
+        color: #363738;
+    }
+    .kontakt__block{
+        max-width: 690px;
+        display: inline-block;
+    }
+    .kontakt__color_list{
+        background-color: #f9f9fb;
+        padding: 28px 32px 48px 28px;
+        border-radius: 5px;
+        margin-top: 72px;
+        display: inline-block;
+    }
+    .kontakt__texti{
+        display: flex;
+        gap: 40px;
+    }
+}
+@media screen and (min-width:992px) {
+    .kontakt__block{
+max-width: 1240px;
+margin-left: auto;
+margin-right: auto;
+    }
+    .contakt__block_ul{
+display: flex;
+gap: 100px;
+align-items: center;
+    }
+}

@@ -1,0 +1,41 @@
+.kamaz_kotta_img{
+    display: none;
+}
+.kamaz_ortacha_img{
+    display: none;
+}
+.kamaz__block{
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+@media screen and (min-width:768px) {
+
+    .kamaz__block{
+        max-width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .kamaz_ortacha_img{
+        display: inline-block;
+    }
+    .kamaz_kichik_img{
+        display: none;
+    }
+}
+@media screen and (min-width:992px) {
+    .kamaz_kotta_img{
+        display: inline-block;
+    }
+    .kamaz_ortacha_img{
+        display: none;
+    }
+    .kamaz__block{
+        max-width: 1240px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+}

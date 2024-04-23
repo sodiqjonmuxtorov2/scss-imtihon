@@ -1,0 +1,77 @@
+.track__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    color: #363738;
+    width: 200px;
+}
+
+.track__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+    padding-top: 12px;
+}
+
+.track__textii::before {
+    content: "";
+    width: 92px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-image: url('../img/tank.svg');
+    display: inline-block;
+    padding-bottom: 18px;
+}
+
+
+.track__texti {
+    max-width: 316px;
+}
+
+.track__texti::before {
+    content: "";
+    width: 92px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-image: url('../img/company_bgimg.svg');
+    display: inline-block;
+    padding-bottom: 18px;
+}
+
+.track__block {
+    border-radius: 20px;
+    max-width: 345px;
+    height: 730px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.15);
+    background: #fff;
+    margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.track__textiii::before {
+    content: "";
+    width: 92px;
+    height: 92px;
+    background-repeat: no-repeat;
+    background-image: url('../img/yuk_transport.svg');
+    display: inline-block;
+    padding-bottom: 18px;
+}
+
+.track__connect {
+    padding: 10px 24px;
+}
+
+.track__connect2 {
+    padding: 10px 24px;
+
+}
+
+.track__connect3 {
+    padding: 10px 24px;
+}
+

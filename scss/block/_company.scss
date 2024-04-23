@@ -1,0 +1,116 @@
+.company__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+}
+
+.company__block {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.company__content {
+    margin-top: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 61px;
+}
+
+.company__connect {
+    max-width: 152px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.company__connect_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    text-align: center;
+    color: #363738;
+    padding-top: 24px;
+}
+
+.company__connect_title1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    text-align: center;
+    color: #363738;
+    padding-top: 60px;
+}
+
+.company__content_connect {
+    display: none;
+}
+
+.company__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: center;
+    color: #6b6b6c;
+    padding-top: 12px;
+}
+
+@media screen and (min-width:768px) {
+    .company__block {
+        max-width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    .company__content_connect {
+        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 171px;
+    }
+
+    .company__content {
+        margin-top: 56px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 151px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .company__block {
+        max-width: 1166px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    .company__title {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+    }
+    .company__content_connect {
+        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 133px;
+
+    }
+    .company__content {
+        margin-top: 56px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 133px;
+
+    }
+}

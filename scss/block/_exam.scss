@@ -1,0 +1,60 @@
+.exam{
+    background-color: #0b7572;
+    margin-top: 120px;
+}
+.exam__title{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 28px;
+line-height: 125%;
+color: #fff;
+padding-bottom: 40px;
+}
+.exam__block{
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 85px;
+    padding-top: 85px;
+}
+.exam__block_img{
+    display: none;
+}
+.exam__kotta_img{
+   display: none; 
+}
+@media screen and (min-width:768px) {
+    .exam__block{
+        max-width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 85px;
+        padding-top: 85px;
+    }
+    .exam__img{
+        display: none;
+    }
+    .exam__block_img{
+        display: inline-block;
+    }
+    .exam__title{
+        width: 200px;
+    }
+}
+@media screen and (min-width:992px) {
+    .exam__block{
+        max-width: 1240px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 80px;
+        padding-bottom: 85px;
+        padding-top: 85px;
+    }
+    .exam__block_img{
+        display: none;
+    }
+    .exam__kotta_img{
+        display: inline-block;
+    }
+}

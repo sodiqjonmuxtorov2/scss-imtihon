@@ -1,0 +1,132 @@
+.stages__img {
+    display: none;
+}
+
+.stages__connect {
+    max-width: 338px;
+    height: 176px;
+    fill: #fff;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    padding: 13px 44px 43px 44px;
+    margin-top: 15px;
+}
+
+.stages__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+    text-align: start;
+}
+
+.stages__connect_text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+    padding-top: 16px;
+}
+
+.stages__block {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
+}
+
+.stages__teg {
+    border: 3px solid #ffce50;
+    width: 92px;
+    height: 0px;
+    margin-top: 16px;
+    display: none;
+
+}
+
+.stages__content {
+    margin-top: 50px;
+}
+
+.stages__texti_text {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .stages__block {
+        max-width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stages__connect {
+        max-width: 690px;
+        height: 245px;
+        fill: #fff;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 40px 85px 48px 76px;
+    }
+
+    .stages__teg {
+        display: inline-block;
+    }
+
+    .stages__title {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 125%;
+        color: #363738;
+    }
+
+    .stages__texti_text {
+        display: inline-block;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6b6b6c;
+        padding-top: 16px;
+    }
+
+    .stages__connect_text {
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .stages__block {
+        max-width: 1232px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .stages__connect {
+        max-width: 1183px;
+        height: 245px;
+        fill: #fff;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 40px 85px 48px 76px;
+        display: flex;
+        gap: 56px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .stages__img{
+        display: inline-block;
+    }
+
+    .stages__title {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+        text-align: start;
+    }
+}
